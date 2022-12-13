@@ -1,0 +1,13 @@
+@media screen and (max-width: 760)
+ {
+    .content   {
+        flex-direction: column;
+        gap: unset;
+
+    }
+
+    main, aside {
+        width: 100%;
+    }
+
+}

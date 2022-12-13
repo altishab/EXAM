@@ -1,0 +1,136 @@
+@import url(./reset.css);
+
+/* NAVIGATION */
+#main-nav ul {
+    position: top;
+    background-color: #535353;
+    font-size: 1.5em;
+    height: 100%; 
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 3em ;
+}
+
+#main-nav a:not(#brand a) {
+    height: 80px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding:  0 1em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#main-nav a:not(#brand a):hover, #main-nav .collapse:hover {
+    color: #222222;
+    background-color: rgb(218, 218, 218);
+}
+
+
+
+/* HEADER */
+#main-header {
+    position: relative;
+    height: 300px;
+    background-image: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5em;
+    color: #fff;
+    z-index: 2;
+}
+
+
+header h1 {
+font-size: 5em;
+}
+
+header h2 {
+font-size: 2em;
+}
+
+
+/* MAIN CONTENT */
+
+figure img {
+    width: 250px;
+}
+
+#main.content {
+    max-width: 1700px;
+    
+}
+
+
+
+/* MAIN */
+main {  
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2em;
+}
+
+/* ASIDE */
+aside {
+    width: 40%;
+    background-color: rgb(188, 187, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    justify-content: space-between;
+    margin-top: 2em;
+
+}
+
+aside ul {
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+aside li {
+    padding: 1em;
+    border-bottom: 1px solid;
+
+}
+
+figure {   
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+figure cite {
+    display: block;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #535353;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 5em;
+}
+
+#social-nav ul {
+    background-color: #535353;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    margin-top: 2em;
+}
